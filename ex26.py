@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-Exercise: Check Tic Tac Toe
+Exercise 26: Check Tic Tac Toe
 This exercise is Part 2 of 4 of the Tic Tac Toe exercise series. The other
 exercises are: Part 1, Part 3, and Part 4. As you may have guessed, we are
 trying to build up to a full tic-tac-toe board. However, this is significantly
