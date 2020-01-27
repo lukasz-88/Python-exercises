@@ -26,7 +26,6 @@ TutorialsPoint link.
 
 
 def board(n):
-
     print(" ---"*n)
     for i in range(n):
         print("|" + "   |"*n)

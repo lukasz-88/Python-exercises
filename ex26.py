@@ -40,6 +40,7 @@ game = [[0, 0, 1],
         [0, 1, 0],
         [1, 0, 0]]
 
+
 def check_tic_tac_toe(board_game):
     result = 'draw'
     player = ''
@@ -53,20 +54,20 @@ def check_tic_tac_toe(board_game):
                 break
         for j in range(3):
             if board_game[j][0] == board_game[j][1] and \
-                board_game[j][1] == board_game[j][2] and \
-                board_game[j][0] !=0:
+                    board_game[j][1] == board_game[j][2] and \
+                    board_game[j][0] != 0:
                 result = 'win'
                 player = board_game[j][0]
                 break
         if board_game[0][0] == board_game[1][1] and \
                 board_game[1][1] == board_game[2][2] and \
-                board_game [1][1] != 0:
+                board_game[1][1] != 0:
             result = 'win'
             player = board_game[1][1]
             break
         elif board_game[2][0] == board_game[1][1] and \
-                board_game [1][1] == board_game[0][2] and \
-                board_game [1][1] != 0:
+                board_game[1][1] == board_game[0][2] and \
+                board_game[1][1] != 0:
             result = 'win'
             player = board_game[1][1]
             break
@@ -74,5 +75,5 @@ def check_tic_tac_toe(board_game):
             break
     return [result, player]
 
-print(check_tic_tac_toe(game))
 
+print(check_tic_tac_toe(game))
