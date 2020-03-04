@@ -7,12 +7,14 @@ normally takes care of for us. All you need is some variables and
 if statements!
 """
 
+
 def max_three(var1, var2, var3):
-    if int(var1)>int(var2) and int(var1)>var3:
+    if int(var1) > int(var2) and int(var1) > var3:
         return var1
-    elif int(var2)>int(var3):
+    elif int(var2) > int(var3):
         return var2
     else:
         return var3
 
-print(max_three(2,5,1))
+
+print(max_three(2, 5, 1))

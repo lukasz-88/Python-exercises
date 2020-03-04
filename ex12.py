@@ -8,7 +8,9 @@ write this code inside a function.
 
 a = [5, 10, 15, 20, 25]
 
+
 def list_ends(user_list):
     print([user_list[0], user_list[-1]])
+
 
 list_ends(a)

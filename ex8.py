@@ -13,6 +13,7 @@ Paper beats rock
 
 choice = ('rock', 'scissors', 'paper')
 
+
 def player_choice(number):
     while True:
         player_ans = input("Player {}, enter rock/scissors/paper: ".format(number))
@@ -30,8 +31,8 @@ while True:
     if player_1 == player_2:
         print("Draw")
     elif (player_1 == 'rock' and player_2 == 'scissors') \
-         or (player_1 == 'scissors' and player_2 == 'paper') \
-         or (player_1 == 'paper' and player_2 == 'rock'):
+            or (player_1 == 'scissors' and player_2 == 'paper') \
+            or (player_1 == 'paper' and player_2 == 'rock'):
         print("The winner is player One.")
     else:
         print("The winner is player Two.")

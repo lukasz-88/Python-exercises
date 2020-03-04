@@ -16,6 +16,7 @@ a = [1, 1, 2, 3, 3, 4]
 def without_duplicates(user_list):
     print(list(set(user_list)))
 
+
 def without_duplicates2(user_list):
     b = []
     for i in a:

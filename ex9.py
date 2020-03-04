@@ -13,13 +13,13 @@ the game ends, print this out.
 
 import random
 
-number = random.randint(1,9)
+number = random.randint(1, 9)
 counter = 0
 
 while True:
     try:
         user_number = int(input("Try to guess the number between 1 and 9: "))
-        if user_number in range(1,10):
+        if user_number in range(1, 10):
             counter += 1
             if user_number == number:
                 print("Correct! You tried to guess {} time(s)".format(counter))

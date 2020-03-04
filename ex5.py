@@ -22,7 +22,7 @@ print(list(set(a).intersection(set(b))))
 """
 
 
-#ver2:
+# ver2:
 import random
 a = range(0, random.randint(1,50))
 b = range(0, random.randint(1,50))
@@ -30,4 +30,3 @@ b = range(0, random.randint(1,50))
 print(a)
 print(b)
 print(list(set(a).intersection(set(b))))
-"""

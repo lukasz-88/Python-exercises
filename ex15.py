@@ -8,10 +8,12 @@ Then I would see the string:  Michele is name My
 shown back to me.
 """
 
+
 def string_backward(user_string: str):
     if len(user_string) == 0:
         print("Zero-length string")
     else:
         print(" ".join(user_string.split(" ")[::-1]))
+
 
 string_backward("My name is Michele")

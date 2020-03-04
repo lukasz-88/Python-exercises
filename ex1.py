@@ -35,7 +35,7 @@ while True:
 while True:
     number_copy = input("How many copies print? ")
     if not number_copy.isdigit() or int(number_copy) <= 0:
-        print("Number of copie must be a positive number")
+        print("Number of copies must be a positive number")
         continue
     else:
         break

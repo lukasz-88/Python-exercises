@@ -10,19 +10,21 @@ enter the number of numbers in the sequence to generate.
  1, 1, 2, 3, 5, 8, 13, …)
 """
 
-def Fibonacci(number: int):
+
+def fibonacci(number: int):
     if number == 1:
         print("Fibonacci sequence for your number ({}) is: {}".format(number, [1]))
     else:
         num1, num2 = 0, 1
-        Fib_seq = [num2]
+        fib_seq = [num2]
         i = 1
         while i < number:
-            Fib_seq.append(num1 + num2)
+            fib_seq.append(num1 + num2)
             i += 1
             num3 = num1 + num2
             num1 = num2
             num2 = num3
-        print("Fibonacci sequence for your number ({}) is: {}".format(number, Fib_seq))
+        print("Fibonacci sequence for your number ({}) is: {}".format(number, fib_seq))
 
-Fibonacci(8)
+
+fibonacci(8)
